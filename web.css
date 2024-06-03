@@ -1,0 +1,21 @@
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.navbar {
+    background-color: #1e1e1e;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}

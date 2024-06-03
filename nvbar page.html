@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+       }
+       body{
+        font-family:montserrat; 
+       }
+       nav{
+        background-color: aquamarine;
+        height: 80px;
+        width: 100%;
+        border-radius: 12px;
+       }
+       nav ul{
+        float: left;
+        margin-left: 20px;
+       }
+       nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+       }
+       nav ul li a{
+        color: white;
+        font-size: 15px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+       }
+       a.active,a:hover{
+        background-color: brown;
+        transition: .5sc;
+       }
+    body{
+        margin: 50px;
+        padding: 100px;
+        
+    }
+      
+       .main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+       }
+       .manu{
+        border-radius: 10px;
+        margin: 50px;
+        height: 250px;
+        width: 20%;
+        background-color: azure;
+        border: solid black;
+       }
+       .manu a{
+       
+        text-decoration: none; color:forestgreen;
+        font-size: 18px;
+        letter-spacing: 2px;
+        display: list-item;
+        padding: 20px;
+        border-top:1px solid black;
+        border-bottom: 1px solid black;
+         border-radius: 10px;
+    
+       }
+       .body{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+       }
+    </style>
+
+    
+</head>
+<link rel="stylesheet" href="ahmad.Css">
+<body>
+    <nav>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="manu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">contact</a>
+
+        </div>
+
+    </div>
+</body>
+</html>
